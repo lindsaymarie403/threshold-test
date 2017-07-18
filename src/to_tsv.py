@@ -26,7 +26,7 @@ def convert_to_tsv(orig_fname, output_fname, path=''):
 
 if __name__ == '__main__':
 
-  # path = '../data/orig-data/'
+  path = '../data/orig_data/'
 
   print "processing CONTRABAND.txt..."
   convert_to_tsv(orig_fname='CONTRABAND.txt', output_fname='CONTRABAND.tsv', path=path)
@@ -35,7 +35,7 @@ if __name__ == '__main__':
   convert_to_tsv(orig_fname='SEARCH.txt', output_fname='SEARCH.tsv', path=path)
 
   print "processing SEARCHBASIS.txt..."
-  convert_to_tsv(orig_fname='SEARCHBASIS.txt', output_fname='SEARCHBASIS.tsv', path=path) 
+  convert_to_tsv(orig_fname='SEARCHBASIS.txt', output_fname='SEARCHBASIS.tsv', path=path)
 
   print "processing STOP.txt..."
   convert_to_tsv(orig_fname='STOP.txt', output_fname='STOP.tsv', path=path)
